@@ -1,6 +1,5 @@
 largest= -1
 smallest= 10000
-
 while True:
     num = input("Enter a number? ")
     try:
@@ -14,6 +13,5 @@ while True:
             smallest=num
     except:
         print("invalid input")
-
 print("Maximum", largest)
 print("Minimum", smallest)
