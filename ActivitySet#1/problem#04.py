@@ -1,16 +1,10 @@
 # Conditional Execution
 
-hrs = input("Enter hours: ")
-h=float(hrs)
-rate = input("Enter the rate: ")
-r=float(rate)
+h = float(input("Enter hours: "))
+r = float(input("Enter the rate: "))
 if h>40:
-  pay1=40*r
-  r=r*1.5
+  r1=r*1.5
   h1=h-40
-  pay2=r*h1
-  pay=pay1+pay2
+  print()
 else:
-  pay=h*r
-
-print("pay: ",pay)
+  print(h*r)
