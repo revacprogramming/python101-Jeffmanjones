@@ -1,5 +1,5 @@
-largest= -1
-smallest= 10000
+largest= None
+smallest= None
 while True:
     num = input("Enter a number? ")
     try:
