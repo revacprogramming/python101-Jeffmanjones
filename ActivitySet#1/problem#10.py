@@ -7,9 +7,8 @@ counts=dict()
 lst=list()
 for line in handle:
     words=line.split()
-    if
-    for word in words:
-        counts[word]=counts.get(word,0)+1
+    if 'From:' in line:
+        counts[words[1]]=counts.get(words[1],0)+1
 
 bigcount=None
 bigword=None
