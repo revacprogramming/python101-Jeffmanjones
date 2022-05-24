@@ -1,8 +1,7 @@
 
 
 def add(a, b):
-    return  # ...
-
+  int(sum)=a+b
 
 def main():
     a = input  # ...
