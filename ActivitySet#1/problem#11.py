@@ -6,7 +6,7 @@ handle = open(name)
 hours={}
 for line in handle:
 	if "From:" in line:
-         continue
+        continue
 	elif "From" in line:
     	 time=line.split()
     	 time=str(time[5]).split(":")
@@ -14,6 +14,6 @@ for line in handle:
              hours[time[0]]=1
          else:
              hours[time[0]]=hours.get(time[0],0) + 1
-                    
+
 for i,j in sorted(hours.items()):
 	print(i,j)
