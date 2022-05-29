@@ -8,3 +8,5 @@ fhand=open(filename)
 for line in fhand:
   if "From:" in line:
     words=re.findall([0-9]+, 0)
+
+total=words+total
