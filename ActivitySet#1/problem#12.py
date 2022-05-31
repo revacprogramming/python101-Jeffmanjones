@@ -2,11 +2,14 @@
 # https://www.py4e.com/lessons/regex
 
 import re
-
-filename=input("Insert file name:")
-fhand=open(filename)
-for line in fhand:
-  if "From:" in line:
-    words=re.findall([0-9]+, 0)
-
-total=words+total
+total = 0
+fname = input("Enter file:")
+if len(fname) < 1 : fname="regex_sum_42.txt"
+handle = open(fname)
+for line in handle:
+    numbers = re.findall("[0-9]+",line)
+    if not numbers: continue
+    else:         
+        for num in numbers:
+            total = total + int(num)
+print(total)
