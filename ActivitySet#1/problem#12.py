@@ -12,4 +12,4 @@ for line in handle:
     else:         
         for num in numbers:
             total = total + int(num)
-print("The total is"total)
+print(total)
