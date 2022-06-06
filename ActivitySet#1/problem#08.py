@@ -18,3 +18,4 @@ for line in fh:
     total=total+a
     
 avg=total/count
+print(avg)
