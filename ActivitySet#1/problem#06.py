@@ -14,4 +14,4 @@ while True:
     except:
         print("invalid input")
 print("the largest number is ",largest)
-print(smallest)
+print("The smallest number is ",smallest)
