@@ -13,5 +13,5 @@ while True:
             smallest=num
     except:
         print("invalid input")
-print(largest)
-print(smallest)
+print("The largest number is ", largest)
+print("The smallest number is ", smallest)
