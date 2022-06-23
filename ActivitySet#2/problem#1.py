@@ -5,7 +5,7 @@ def add(a, b):
 
 def main():
     a = float(input("Enter a number"))
-    b = input("Enter a number")
+    b = float(input("Enter a number"))
 
     c = add(a, b)
     print  # ...
