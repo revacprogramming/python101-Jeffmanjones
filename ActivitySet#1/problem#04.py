@@ -1,4 +1,5 @@
 # Conditional Execution
+
 h = float(input("Enter hours: "))
 r = float(input("Enter the rate: "))
 if h>40:
