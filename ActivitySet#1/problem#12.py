@@ -1,4 +1,4 @@
-3# Regular Expressions
+# Regular Expressions
 # https://www.py4e.com/lessons/regex
 import re
 total = 0
