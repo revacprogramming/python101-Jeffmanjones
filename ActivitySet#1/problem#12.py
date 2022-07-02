@@ -1,5 +1,3 @@
-# Regular Expressions
-# https://www.py4e.com/lessons/regex
 import re
 total = 0
 fname = input("Enter file:")
