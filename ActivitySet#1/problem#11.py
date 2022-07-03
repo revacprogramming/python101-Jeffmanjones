@@ -1,5 +1,4 @@
 # Tuples
-
 filename = "dataset/mbox-short.txt"
 name = input("Enter file:")
 handle = open(name)
