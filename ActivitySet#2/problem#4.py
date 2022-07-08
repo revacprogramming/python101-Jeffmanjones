@@ -1,26 +1,23 @@
-
-
 def get_cs():
-    """get string input"""
-
+    word=input("Enter a string: \n")
+    return word
 
 def cs_to_lot(cs):
-    """convert connected string to list of strings"""
-
+    lst=cs.split()
+    return lst
 
 def lot_to_cs(lot):
-    """convert list of strings to connected string"""
-
+    str=" " #for spaces in between
+    return (str.join(lot))
 
 def main():
     cs=get_cs()
-
-    lot=cs_to_lot(cs)  # convert connect string to list of tuples
+  
+    lot=cs_to_lot(cs)  
     print(lot)
-
-    cs=lot_to_cs(lot)  # convert list of strings to connect string
+  
+    cs=lot_to_cs(lot)  
     print(cs)
-
 
 if __name__ == '__main__':
     main()
