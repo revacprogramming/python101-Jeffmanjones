@@ -5,7 +5,6 @@ def get_cs():
 def cs_to_dict(cs):
     d=dict()
     
-    d={}
     return d
   #dictionary comprehension
 
