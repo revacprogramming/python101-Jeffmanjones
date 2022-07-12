@@ -3,8 +3,10 @@ class Menu:
   def __init__(self,item,price):
     self.item=item
     self.price=price
-    def menu()
-      d=dict()
+  def add(self,item,price):
+    
+  def show(self,item,price):
+    print(add(item,price))
       
 m = Menu()  # Menu is a class
 m.add("idly", 10)
