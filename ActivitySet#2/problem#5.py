@@ -4,7 +4,7 @@ def get_cs():
 
 def cs_to_dict(cs):
     d=dict()
-    
+    d={(a:=i.split("="))[0]:a[1] for i in s.split(";")}
     return d
   #dictionary comprehension
 
