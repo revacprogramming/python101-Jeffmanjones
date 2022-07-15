@@ -6,7 +6,8 @@ class Menu:
   def add(self,item,price):
     
   def show(self,item,price):
-    print(add(item,price))
+    for i in item,price:
+      print(item,price)
       
 m = Menu()  # Menu is a class
 m.add("idly", 10)
