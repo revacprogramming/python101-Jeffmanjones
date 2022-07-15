@@ -16,7 +16,7 @@ def main():
     lot=cs_to_lot(cs)  
     print(lot)
   
-    cs=lot_to_cs(lot)  
+    cs=lot_to_cs(lot)
     print(cs)
 
 if __name__ == '__main__':
