@@ -19,6 +19,3 @@ while i<n:
   m.add(item,price)
   i=i+1
 m.show()
-
-#m.add("idly", 10) 
-#m.add("vada", 20)
