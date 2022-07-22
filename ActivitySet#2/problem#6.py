@@ -10,12 +10,8 @@ class Menu:
   def show(self):
     print(d)
 
-n=int(input("Number of items in the menu:\n"))
-i=0
-while i<n:
-  item=input("Enter an item: ")
-  price=float(input("Enter the price: "))
-  m=Menu(item,price)
-  m.add(item,price)
-  i=i+1
+m=Menu("item",20)
+m.add("item",20)
+m=Menu("idli",10)
+m.add("idli",10)
 m.show()
